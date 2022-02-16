@@ -26,7 +26,7 @@ def draw_image(ax, image):
     :param image: image in array form
     :return: None
     """
-    ax.imshow(image)
+    ax.imshow(image, cmap = 'gray', vmin=-0.1, vmax=0.2, interpolation='nearest')
 
 
 def draw_points(ax, points):

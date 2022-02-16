@@ -1,6 +1,6 @@
 import numpy as np
 from skimage import filters, morphology, color
-from triangulared.utils import gaussian_mask, default
+from External.images_to_triangles.triangulared.utils import gaussian_mask, default
 
 
 def edge_points(image, length_scale=200,
